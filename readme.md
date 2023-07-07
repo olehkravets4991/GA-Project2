@@ -1,15 +1,15 @@
 # PROJECT 2
 
-- **Project Name:** jlkdjfljdflkjflsdfj
-- **Project By:** your name
-- [**LINK TO GITHUB**](http://www.github.com)
-- [**LINK TO DEPLOYED WEBSITE**](http://www.render.com)
+- **Project Name:** Cliens List
+- **Project By:** Oleh Kravets
+- [**LINK TO GITHUB**](https://github.com/olehkravets4991/GA-Project2)
+- [**LINK TO DEPLOYED WEBSITE**](https://clients-list.onrender.com/)
 - **List of Technologies used:** HTML, JS, CSS, Node, Express, EJS, Mongo
-- [**LINK TO TRELLO**](http://www.render.com)
+- [**LINK TO TRELLO**](https://trello.com/b/hEezDF3j/project2)
 
 ## Description
 
-"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+A basic clients list website is a user-friendly web application that allows businesses to efficiently manage and organize client information, facilitating seamless communication, tracking interactions, and maintaining comprehensive profiles.
 
 ## Mock UP of UI
 
@@ -20,8 +20,8 @@
 
 | ENDPOINT | METHOD | PURPOSE |
 |----------|--------|---------|
-| /dog | get | list all dogs |
-|/dog/:id | get | list one dog |
+| /client | get | list all clients |
+|/client/:id | get | list one client|
 
 ## ERD (ENTITY RELATIONSHIP DIAGRAM)
 
