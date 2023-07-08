@@ -1,6 +1,6 @@
 # PROJECT 2
 
-- **Project Name:** Cliens List
+- **Project Name:** Clients List
 - **Project By:** Oleh Kravets
 - [**LINK TO GITHUB**](https://github.com/olehkravets4991/GA-Project2)
 - [**LINK TO DEPLOYED WEBSITE**](https://clients-list.onrender.com/)
@@ -13,15 +13,21 @@ A basic clients list website is a user-friendly web application that allows busi
 
 ## Mock UP of UI
 
-- ![Desktop View](http://imgur.com)
-- ![Mobile View](http://imgur.com)
+- ![Desktop View, Mobile View](https://i.imgur.com/EaVwiAu.png)
+
 
 ## List of Backend Endpoints
 
 | ENDPOINT | METHOD | PURPOSE |
 |----------|--------|---------|
-| /client | get | list all clients |
-|/client/:id | get | list one client|
+| /client | GET | list all clients |
+|/client/:id | GET | list one client|
+|/client/new|	GET	|Display a form to add a new client|
+|/client	|POST	|Add the client to a database|
+|/client/:id/edit	|GET	|To edit an existing client|  
+|/client/:id	|PUT	|Update a clients information| 
+|/client/:id	|DELETE	|Delete a client|
+----------	--------	---------
 
 ## ERD (ENTITY RELATIONSHIP DIAGRAM)
 
