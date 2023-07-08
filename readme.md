@@ -31,6 +31,6 @@ A basic clients list website is a user-friendly web application that allows busi
 
 ## ERD (ENTITY RELATIONSHIP DIAGRAM)
 
-![PICTURE OF ERD](http://imgur.com)
+![PICTURE OF ERD](https://i.imgur.com/qLVwXYr.png)
 
 - [Free ERD Diagram Tool](https://dbdiagram.io/home)
