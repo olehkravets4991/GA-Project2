@@ -24,7 +24,7 @@ router.delete('/:id', async (req, res) => {
 ///UPDATE
 router.put('/:id', async (req, res) => {
     const id = req.params.id;
-    req.body.extinct = req.body.extinct === 'on' ? true : false;
+    req.body.employed = req.body.employed === 'on' ? true : false;
     const oneClient = await ClientModel.findByIdAndUpdate(id, req.body);
     res.redirect('/client')
 })
@@ -44,7 +44,7 @@ router.post('/', async (req, res) => {
 router.get('/:id/edit', async (req, res) => {
     const id = req.params.id;
     const oneClient = await ClientModel.findById(id);
-    res.render('clients/edit.ejs', {oneAnimal})
+    res.render('clients/edit.ejs', {oneClient})
 })
 
 //SHOW

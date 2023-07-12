@@ -4,10 +4,10 @@ const mongoose = require("./connection.js")
 const clientSchema = new mongoose.Schema({
 
     name:String,
-    employed:Boolean,
-    married:Boolean,
     email:String,
     phone:Number,
+    employed:Boolean,
+    married:Boolean,
     notes:String
 })
 

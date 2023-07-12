@@ -7,9 +7,9 @@ mongoose.connection.on("open", async()=>{
     const scrubbedData = clientData.map((v)=>{
 
         return{
-            name: v.name,
+            title: v.title,
             employed: v.employed,
-            married: v.married,
+            // married: v.married,
             email: v.email,
             phone: v.phone,
             notes: v.notes
