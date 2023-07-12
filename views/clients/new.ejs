@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Client</title>
+    <%- include("../imports.ejs") %>
+</head>
+<body>
+    <h1 >Create a New Client</h1>
+    <div class="main">
+        <form method="post" action="/client" >
+            <label>Name: <br><input type="text" name="name" /></label><br>
+            <label>Email: <br><input type="text" name="email" /></label><br>
+            <label> Phone: <br><input type="number" name="phone" /></label><br>
+            <label> Employed: <input type="checkbox" name="employed"  /></label><br>
+            <label> Married: <input type="checkbox" name="married"  /></label><br>
+            <label>Notes: <br><input type="text" name="notes" /></label><br>
+            <div>
+                <input class= "submits" type="submit"  value="Add Client"/>
+                <a href="/client"><button class= "submits" >Home Page</button></a>
+            </div>
+        </form>
+        
+    </div>
+    
+</body>
+</html>
+
+<!-- name:String,
+employed:Boolean,
+married:Boolean,
+email:String,
+phone:Number,
+notes:String -->

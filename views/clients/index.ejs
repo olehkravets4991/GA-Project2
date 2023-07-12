@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clients</title>
+    <%- include("../imports.ejs") %>
+</head>
+<body>
+    <h1>Client List</h1>
+
+    <a href="/client/new"><button>Add New Client</button></a>
+    
+    <ul>
+        <% allClients.forEach((client, index)=>{%>
+            <a href="/client/<%= client._id%>"><h3>Name: <%= client.name%></h3></a>
+              <% })%>
+    </ul>
+    
+</body>
+</html>

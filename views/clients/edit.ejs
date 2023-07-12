@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client List</title>
+    <%- include("../imports.ejs") %>
+</head>
+<body>
+    <h1>Client List</h1>
+    
+    <div class="main">
+        <h2>Edit Page</h2>
+        <form method="post" action="/client/<%= oneClient._id%>?_method=PUT">
+            <label>Name: <br><input type="text" name="name" value="<%=oneClient.name%>"  /></label><br>
+            <label>Email: <br><input type="text" name="email"value="<%=oneClient.email%>" /></label><br>
+            <label> Phone: <br><input type="number" name="phone" value="<%=oneClient.phone%>" /></label><br>
+            <label> Employed: <input type="checkbox" name="employed" <%=oneClient.employed ? "checked": "" %> /></label><br>
+            <label> Married: <input type="checkbox" name="married" <%=oneClient.married ? "checked": "" %> /></label><br>
+            <label>Notes: <br><input type="text" name="notes"value="<%=oneClient.notes%>" /></label><br>
+            <div style="display:inline-flex">
+                <input class="submits"type="submit"  value="Edit"/>
+                <a href="/animal"><button class="submits">Home Page</button></a>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
+
+<!-- name:String,
+employed:Boolean,
+married:Boolean,
+email:String,
+phone:Number,
+notes:String -->
