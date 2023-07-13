@@ -1,5 +1,6 @@
 body {
     background-color: #c7bfe6;
+    background-image: url("https://i.imgur.com/cKnh1jU.png");
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -12,6 +13,6 @@ body {
   }
   
   h2 {
-    color: #ec0537;
+    color: #ec0505;
     margin-bottom: 10px;
   }
