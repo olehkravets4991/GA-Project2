@@ -15,12 +15,12 @@ app.use(express.static('public')); // serve static files from public folder
 app.use(express.urlencoded({extended: false}));
 app.use("/client", clientsRouter)
 
-// // Routes
+// Routes
 
-// app.get('/', (req, res) => {
-//     res.send('Hello World!');
-//     })
+app.get('/', (req, res) => {
+    res.redirect('/client');
+    })
 
 // Listen
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3020;
 app.listen(PORT, () => { console.log(`Listening on port ${PORT}`) })

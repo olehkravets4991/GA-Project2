@@ -34,7 +34,7 @@ router.post('/', async (req, res) => {
     if(req.body.employed === 'on'){
         req.body.employed = true;
     }else {
-        req.body.readyToEat = false;
+        req.body.employed = false;
     }
    const addCleint= await ClientModel.create(req.body);
     res.redirect('/client');
