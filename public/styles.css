@@ -1,9 +1,12 @@
 body {
-    background-color: #c7bfe6;
     background-image: url("https://i.imgur.com/cKnh1jU.png");
     font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
     margin: 0;
-    padding: 0;
+    padding: 20px;
   }
 
   h1 {
